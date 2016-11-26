@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Grocery List App (Student Project)</title>
+</head>
+
+<body>
+  <form action="/routes" method="post">
+    <h1>Product</h1>
+      <input type="text" name="product">
+    <h1>Quantity</h1>
+      <input type="text" name="quantity">
+        <br/><br/>
+      <input type="submit" value="Submit">
+        <br/><br/>
+  </form>
+
+  <ul>
+    <% groceryItems.forEach(function(groceryItem) { %>
+    <li>
+      <%= groceryItem.product %> <%= groceryItem.quantity %>
+    </li>
+      <% }) %>
+  </ul>
+
+</body>
+</html>

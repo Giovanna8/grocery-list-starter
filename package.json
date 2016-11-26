@@ -1,26 +1,31 @@
 {
   "name": "grocery-list-starter",
   "version": "1.0.0",
-  "description": "A starter app for the ACA full stack Grocery List project",
+  "description": "Grocery List Student Project",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/canaandavis/grocery-list-starter.git"
+    "url": "git+https://github.com/giovanna8/grocery-list-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/canaandavis/grocery-list-starter/issues"
+    "url": "https://github.com/giovanna8/grocery-list-starter/issues"
   },
-  "homepage": "https://github.com/canaandavis/grocery-list-starter#readme",
+  "homepage": "https://github.com/giovanna8/grocery-list-starter#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "connect": "^3.5.0",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "mongoose": "^4.6.4"
+    "jquery": "^3.1.1",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.7.0",
+    "mpromise": "^0.5.5"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
